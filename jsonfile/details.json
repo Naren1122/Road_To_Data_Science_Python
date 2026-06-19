@@ -1,0 +1,79 @@
+[
+    {
+        "users": [
+            {
+                "id": 1,
+                "name": "Alice Johnson",
+                "email": "alice@example.com",
+                "age": 28,
+                "isActive": true,
+                "roles": [
+                    "admin",
+                    "editor"
+                ],
+                "address": {
+                    "street": "123 Main St",
+                    "city": "New York",
+                    "country": "USA"
+                }
+            },
+            {
+                "id": 2,
+                "name": "Bob Smith",
+                "email": "bob@example.com",
+                "age": 34,
+                "isActive": false,
+                "roles": [
+                    "viewer"
+                ],
+                "address": {
+                    "street": "456 Oak Ave",
+                    "city": "Chicago",
+                    "country": "USA"
+                }
+            },
+            {
+                "id": 3,
+                "name": "Charlie Brown",
+                "email": "charlie@example.com",
+                "age": 25,
+                "isActive": true,
+                "roles": [
+                    "editor"
+                ],
+                "address": {
+                    "street": "789 Pine Rd",
+                    "city": "San Francisco",
+                    "country": "USA"
+                }
+            }
+        ],
+        "metadata": {
+            "totalUsers": 3,
+            "generatedAt": "2026-06-10T12:00:00Z"
+        }
+    },
+    {
+        "users": [
+            {
+                "id": 4,
+                "name": "Diana Prince",
+                "email": "diana@example.com",
+                "age": 30,
+                "isActive": true,
+                "roles": [
+                    "admin"
+                ],
+                "address": {
+                    "street": "100 Justice Ln",
+                    "city": "Metropolis",
+                    "country": "USA"
+                }
+            }
+        ],
+        "metadata": {
+            "totalUsers": 1,
+            "generatedAt": "2026-06-10T12:00:00Z"
+        }
+    }
+]
