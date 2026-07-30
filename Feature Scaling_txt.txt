@@ -1,0 +1,46 @@
+Feature Scaling
+---------------------------
+1. Standard Scalar 
+-> If row of data contains outliers or chance of getting outliers.
+-> (Xi - mean)/sd
+-> Best range (-1 to 1)
+-> (-3 to 3) -> consider
+
+
+2. Min Max Scalar
+-> If row of data does not contains any outliers or chance of getting outliers.
+-> (Xi - min)/(max - min)
+-> 0 -1
+
+3. Robust Scalar
+4. Feature Scalar
+
+Feature Encoding
+----------------------------
+1. Label Encoder
+2. One Hot Encoder
+
+
+Train Test Rule
+-----------------------------
+80/20 Rule -> 80% Train and 20% Test
+70/30
+60/40
+50/50
+
+
+Metrics
+--------------------------------
+1. Regression
+  -> MAE (Mean absolute error) -> Sum of all distance / total_data
+  -> MSE (Mean Squared Error) -> sum of square distance / total_data
+  -> RMSE (Root Mean Squared Error) -> root(MSE) -> Loss function / residual error
+  -> R2 score (Residual Score) -> accuracy
+
+  -> RMSE Increase - R2 Score Decrease
+  -> RMSE Decrease - R2 Score Increase (Correct)
+
+Bo -> Intercept (C)
+B1 -> Cofficient / Slope (m)
+
+MLR -> B0 + B1*x1 + B2*x2 + .......+ Bn*xn + e

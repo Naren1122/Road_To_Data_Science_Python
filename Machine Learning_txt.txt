@@ -1,0 +1,53 @@
+Machine Learning.
+------------------------------------------------------------------------------
+Types of Machine Learning
+------------------------------------------------------------------------------
+1. Supervised Learning
+   Feature -> All feature must be independent to one another.
+   Target  -> Target must be dependent to all feature.
+
+   1. Regression
+   -> If our target value is continuous then use regression.
+
+   Algorithms
+   ---------------------------
+   1. Linear Regression
+   2. Random Forest Regressor
+   3. Decision Tree Regressor
+   4. XGBoost Regressor
+   5. K Nearest Neighbors Regressor
+   6. Support Vector Regressor
+    
+   2. Classification
+   -> If our target value is categorical or discrete then use classification.
+   
+   Algorithms
+   -------------------------------
+   1. Logistic Regression
+   2. Random Forest Classifier
+   3. Decision Tree Classifier
+   4. XGBoost CLassifier
+   5. K Nearest Neighbors Regressor
+   6. Support Vector CLassifier
+
+
+  
+2. Unsupervised Learning
+   Feature -> All feature must be independent to one another.
+
+   1. Clustering
+   -> Segmentation   
+   
+   Algorithms 
+   --------------------------------
+
+   1. Agglomerative Clustering
+   2. Hierarchical Clustering
+   3. K Means Clustering
+   4. PCA (Principle Component Analysis)
+
+3. Reinforcement Learning -> Deep Learning
+
+
+
+

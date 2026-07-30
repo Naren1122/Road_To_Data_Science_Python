@@ -1,0 +1,9 @@
+Linear Regression
+---------------------------------------------------
+y = mx+c
+
+where y -> Prediction value
+      m -> Slope
+      x -> Data
+      c ->Intercept
+
